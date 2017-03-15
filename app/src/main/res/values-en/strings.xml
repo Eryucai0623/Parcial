@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_login_username">Username</string>
+    <string name="str_login_password">Password</string>
+    <string name="str_login_btn_in">Login</string>
+    <string name="str_label_question">¿Not have an account?,</string>
+    <string name="str_label_link_createaccount">create one here.</string>
+    <string name="str_ca_email">Email</string>
+    <string name="str_ca_name">Name</string>
+    <string name="str_ca_user">Username</string>
+    <string name="str_ca_pass">Password</string>
+    <string name="str_ca_confpass">Confirm password</string>
+    <string name="str_btn_createaccount">Register</string>
+    <string name="str_title_toolbar">Create account</string>
+</resources>

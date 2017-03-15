@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MysTareas</string>
+    <string name="str_login_username">Correo Electronico</string>
+    <string name="str_login_password">Comentario</string>
+    <string name="str_login_btn_in">Actualizar</string>
+    <string name="str_label_question">¿No tienes cuenta?,</string>
+    <string name="str_label_link_createaccount">crea una aqui.</string>
+    <string name="str_ca_email">Correo electronico</string>
+    <string name="str_ca_name">Nombre</string>
+    <string name="str_ca_user">Usuario</string>
+    <string name="str_ca_pass">Contraseña</string>
+    <string name="str_ca_confpass">Confirmar contraseña</string>
+    <string name="str_btn_createaccount">Registrarse</string>
+    <string name="str_title_toolbar">Crear cuenta</string>
+</resources>
