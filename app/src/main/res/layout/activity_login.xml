@@ -73,8 +73,8 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fillViewport="true"
-            android:layout_weight="0.4">
+            android:layout_weight="0.4"
+            android:fillViewport="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -85,14 +85,14 @@
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:theme="@style/StyleTextInputWhite"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:theme="@style/StyleTextInputWhite">
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/id_txt_username"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/str_login_username"/>
+                        android:hint="@string/str_login_username" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -107,7 +107,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/str_login_password"
-                        android:inputType="textPassword"/>
+                        android:inputType="textPassword" />
 
                 </android.support.design.widget.TextInputLayout>
 
@@ -115,37 +115,13 @@
                     android:id="@+id/id_btn_in"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/str_login_btn_in"
                     android:layout_marginTop="20dp"
-                    android:theme="@style/StyleButton"/>
+                    android:text="@string/str_login_btn_in"
+                    android:theme="@style/StyleButton" />
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center">
 
-                    <TextView
-                        android:id="@+id/id_tv_question"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/str_label_question"
-                        android:textColor="@android:color/white"
-                        android:textStyle="bold"
-                        android:textSize="16sp"/>
 
-                    <TextView
-                        android:id="@+id/id_tv_link"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/str_label_link_createaccount"
-                        android:textColor="@android:color/white"
-                        android:textStyle="bold"
-                        android:textSize="16sp"
-                        android:layout_toRightOf="@id/id_tv_question"
-                        android:layout_marginLeft="10dp"
-                        android:onClick="goCreateAccount"/>
 
-                </RelativeLayout>
 
             </LinearLayout>
 
