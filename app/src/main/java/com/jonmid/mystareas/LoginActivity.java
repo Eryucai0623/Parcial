@@ -17,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case android.R.id.home: //hago un case por si en un futuro agrego mas opciones
+            case android.R.id.home
                 Log.i("ActionBar", "Atrás!");
                 finish();
                 return true;
